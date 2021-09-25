@@ -7,6 +7,14 @@
     "lint": "eslint ./src",
     "lint:fix": "eslint ./src --fix --color"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.(js|jsx)": ["npm run lint:write", "git add"]
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -21,13 +29,5 @@
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {    
-    "*.(js|jsx)": ["npm run lint:fix", "git add"]
- }
+  }
 }
