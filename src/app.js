@@ -1,4 +1,5 @@
 const a = 1;
+const esss = 2;
 
 function foo(name) {
 	   const lastName = name;
@@ -19,5 +20,3 @@ foo('123');
 
 const y = 200;
 console.log(y, a);
-
-console.log(a);
