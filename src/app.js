@@ -9,7 +9,7 @@ function foo(name) {
 let x = 200;
 
 x++;
-
+console.log(x);
 const e = 123;
 
 const name = obj.name;
