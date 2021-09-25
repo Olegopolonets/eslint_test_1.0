@@ -9,6 +9,6 @@ let x = 200;
 
 x++;
 
-foo('123', x);
+foo('123');
 const y = 200;
 console.log(y, a);
