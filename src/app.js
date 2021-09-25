@@ -1,7 +1,7 @@
 const a = 1;
 
 function foo(name) {
-	const lastName = name;
+	   const lastName = name;
 	return lastName;
 }
 
@@ -16,5 +16,8 @@ const name = obj.name;
 console.log(e);
 
 foo('123');
+
+
+
 const y = 200;
 console.log(y, a);
