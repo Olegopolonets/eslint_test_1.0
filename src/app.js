@@ -17,7 +17,7 @@ console.log(e);
 
 foo('123');
 
-
-
 const y = 200;
 console.log(y, a);
+
+console.log(a);
